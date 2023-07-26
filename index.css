@@ -186,3 +186,120 @@ main{
   .price{
       color: #5ca720;
   }
+
+@media screen and (max-width: 300px){
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .login-button{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button{
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button{
+        width: 100%;
+    }
+
+    .open{
+        display: block;
+    }
+}
+
+.right-side-menu{
+    display: flex;
+    align-items: center;
+}
+
+.icon-avatar img{
+    width: 70px;
+}
+
+.line{
+    height: 1px;
+    background-color: #ddd;
+    width: 100%;
+    align-self: center;
+}
+
+.promotion-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+}
+
+.promotion-header--title{
+    font-weight: 700;
+    color: #161616;
+}
+
+.line1{
+    height: 1px;
+    background-color: #ddd;
+    width: 100%;
+    align-self: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5%;
+  }
+  
+  .column{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 2vh;
+  }
+  
+  .product{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  
+  .product img{
+     width: 250px; 
+     height: 250px;
+     object-fit: cover;
+     border-radius: 20px;
+  }
+  
+  .product span{
+      font-weight: 700;
+  }
+  
+  .price{
+      color: #5ca720;
+  }
