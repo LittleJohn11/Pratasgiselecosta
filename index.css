@@ -70,6 +70,81 @@ header{
     display: none;
 }
 
+  footer{
+    background-color: #eee;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #ddd;
+    padding: 20px 5%;
+}
+
+.footer-top-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-top-left a{
+    font-weight: 700;
+    color: #161616;
+    text-decoration: none;
+}
+
+.footer-top-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-top-right span{
+    font-weight: 700;
+    color: #161616;
+}
+
+.footer-newsletter{
+    display: flex;
+    align-items: center;
+}
+
+.footer-input{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.footer-button{
+    height: 40px;
+    width: 90px;
+    border: 1px solid #eee;
+    background-color:#5ca720;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    border-top: 2px solid #ddd;
+}
+
+.footer-bottom--left, .footer-bottom--right{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-img{
+    height: 50px;
+}
+
 @media screen and (max-width: 730px){
     .nav-bar{
         padding: 1.5rem 4rem;
