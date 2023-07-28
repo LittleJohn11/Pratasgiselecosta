@@ -75,6 +75,7 @@ header{
 }
 
 .mobile-menu ul li a:hover{
+    transition: all 0.5s;
     color: #161616;
 }
 
