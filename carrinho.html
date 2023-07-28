@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loja prata</title>
+    <link rel="stylesheet" href="carrinho.css">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.js">
 </head>
 <body>
-
     <header>
+        
         <nav class="nav-bar">
             <div class="logo">
                 <h1>Pratasgiselecosta</h1>
@@ -16,9 +18,9 @@
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link"></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Visao geral</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Mostruario</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
                 </ul>
             </div>
 
@@ -38,55 +40,23 @@
                 <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
             </ul>
 
-            <div class="line"></div>
 
     </header>   
 
     <section class="home">
-        <div class="home-img">
-            <img src="imagem/prata.jpeg" class="one">
-        </div><!--home-img-->
-
-        <div class="home-text">
-
-            <h1>Correntinha de</del><br>Prata</h1>
-            <h5>Uma joia bonita é capaz de deixar a gente brilhante</h5>
+       <div class="home-text">
+        <h4 class="text-h4">Corretinha de Prata</h4>
+            <h1 class="text1"></h1>
+            <p>Uma joia bonita é capaz de deixar a gente brilhante</p>
             <h3>$00.00</h3>
-            <a href="#" class="btn">COMPRE</a>
+            <a href="#" class="home-btn">COMPRE</a>
+        </div>
 
-        </div><!--home-text-->
-    </section><!--home-->
+        <div class="home-img">
+            <img src="imagem/prata.jpeg" alt="">
+        </div>
+    </section>
 
-
-    <div class="main">
-        <div class="row">
-            <li><img src="imagem/prata.jpeg" onclick="slider('img/prata.jpeg')"></li>
-        </div><!--row-->
-
-        <div class="row2">
-            <li><img src="imagem/Prata3.jpeg" onclick="slider('img/Prata3.jpeg')"></li>
-        </div><!--row2-->
-
-        <div class="row3">
-            <li><img src="imagem/Prata4.jpeg" onclick="slider('img/Prata4.jpeg')"></li>
-        </div><!--row3-->
-    </div><!--main-->
-
-    <script>
-        function slider (anything){
-            document.querySelector ('.one') .src = anything;
-        };
-
-       let menu = document.querySelector ('#menu-icon');
-       let navbar = document.querySelector ('.navbar');
-
-       menu.onclick = () => {
-        menu.classList.toggle ('bx-x');
-        navbar.classList.toggle ('open');
-       }
-    </script>
-
-    <script src="index.js"></script>
-
+   <script src="index.js"></script>
 </body>
 </html>
