@@ -262,6 +262,12 @@ main{
      object-fit: cover;
      border-radius: 20px;
   }
+
+  .product:hover{
+    transition: all 0.5s;
+    background-color: #e3e0e0;
+    border-radius: 10px;
+  }
   
   .product span{
       font-weight: 700;
@@ -383,6 +389,11 @@ main{
   .product span{
       font-weight: 700;
   }
+  
+  .price{
+      color: #5ca720;
+  }
+
   
   .price{
       color: #5ca720;
